@@ -7,7 +7,8 @@ module.exports = defineConfig([
   {
     ignores: ['dist/*'],
     rules: {
-      'import/no-unresolved': 'off'
+      'import/no-unresolved': 'off',
+      'import/namespace': 'warn'
     }
   }
 ])
