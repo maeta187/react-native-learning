@@ -72,6 +72,15 @@ export default function TabLayout() {
           )
         }}
       />
+      <Tabs.Screen
+        name='flex-direction'
+        options={{
+          title: 'FlexDirection',
+          tabBarIcon: ({ color }) => (
+            <IconSymbol size={28} name='3.circle' color={color} />
+          )
+        }}
+      />
     </Tabs>
   )
 }
