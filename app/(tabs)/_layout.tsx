@@ -63,6 +63,15 @@ export default function TabLayout() {
           )
         }}
       />
+      <Tabs.Screen
+        name='flexbox'
+        options={{
+          title: 'FlexBox',
+          tabBarIcon: ({ color }) => (
+            <IconSymbol size={28} name='2.circle' color={color} />
+          )
+        }}
+      />
     </Tabs>
   )
 }
