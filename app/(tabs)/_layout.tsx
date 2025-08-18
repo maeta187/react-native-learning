@@ -81,6 +81,15 @@ export default function TabLayout() {
           )
         }}
       />
+      <Tabs.Screen
+        name='direction'
+        options={{
+          title: 'Direction',
+          tabBarIcon: ({ color }) => (
+            <IconSymbol size={28} name='3.circle' color={color} />
+          )
+        }}
+      />
     </Tabs>
   )
 }
