@@ -90,6 +90,15 @@ export default function TabLayout() {
           )
         }}
       />
+      <Tabs.Screen
+        name='justify-content'
+        options={{
+          title: 'justifyContent',
+          tabBarIcon: ({ color }) => (
+            <IconSymbol size={28} name='4.circle' color={color} />
+          )
+        }}
+      />
     </Tabs>
   )
 }
