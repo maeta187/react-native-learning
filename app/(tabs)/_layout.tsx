@@ -63,6 +63,96 @@ export default function TabLayout() {
           )
         }}
       />
+      <Tabs.Screen
+        name='flexbox'
+        options={{
+          title: 'FlexBox',
+          tabBarIcon: ({ color }) => (
+            <IconSymbol size={28} name='2.circle' color={color} />
+          )
+        }}
+      />
+      <Tabs.Screen
+        name='flex-direction'
+        options={{
+          title: 'FlexDirection',
+          tabBarIcon: ({ color }) => (
+            <IconSymbol size={28} name='3.circle' color={color} />
+          )
+        }}
+      />
+      <Tabs.Screen
+        name='direction'
+        options={{
+          title: 'Direction',
+          tabBarIcon: ({ color }) => (
+            <IconSymbol size={28} name='3.circle' color={color} />
+          )
+        }}
+      />
+      <Tabs.Screen
+        name='justify-content'
+        options={{
+          title: 'justifyContent',
+          tabBarIcon: ({ color }) => (
+            <IconSymbol size={28} name='4.circle' color={color} />
+          )
+        }}
+      />
+      <Tabs.Screen
+        name='align-items'
+        options={{
+          title: 'alignItems',
+          tabBarIcon: ({ color }) => (
+            <IconSymbol size={28} name='5.circle' color={color} />
+          )
+        }}
+      />
+      <Tabs.Screen
+        name='align-self'
+        options={{
+          title: 'alignSelf',
+          tabBarIcon: ({ color }) => (
+            <IconSymbol size={28} name='6.circle' color={color} />
+          )
+        }}
+      />
+      <Tabs.Screen
+        name='align-content'
+        options={{
+          title: 'alignContent',
+          tabBarIcon: ({ color }) => (
+            <IconSymbol size={28} name='7.circle' color={color} />
+          )
+        }}
+      />
+      <Tabs.Screen
+        name='flex-basis-grow-shrink'
+        options={{
+          title: 'flexBasisGrowShrink',
+          tabBarIcon: ({ color }) => (
+            <IconSymbol size={28} name='8.circle' color={color} />
+          )
+        }}
+      />
+      <Tabs.Screen
+        name='gap'
+        options={{
+          title: 'Gap',
+          tabBarIcon: ({ color }) => (
+            <IconSymbol size={28} name='9.circle' color={color} />
+          )
+        }}
+      />
+      <Tabs.Screen
+        name='position'
+        options={{
+          title: 'Position',
+          tabBarIcon: ({ color }) => (
+            <IconSymbol size={28} name='10.circle' color={color} />
+          )
+        }}
+      />
     </Tabs>
   )
 }
