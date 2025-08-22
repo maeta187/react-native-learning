@@ -144,6 +144,15 @@ export default function TabLayout() {
           )
         }}
       />
+      <Tabs.Screen
+        name='position'
+        options={{
+          title: 'Position',
+          tabBarIcon: ({ color }) => (
+            <IconSymbol size={28} name='10.circle' color={color} />
+          )
+        }}
+      />
     </Tabs>
   )
 }
