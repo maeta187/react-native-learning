@@ -1,6 +1,11 @@
 import React from 'react'
 import { StyleSheet, View } from 'react-native'
 
+/**
+ * Viewはデフォルトで`flex`の性質を持っている
+ * 但し、Web開発とは違い、デフォルドで`flexDirection: 'column'`なので常に縦並びになる
+ * もし横並びにしたい場合は明示的に`flexDirection: 'row'`を書く必要がある
+ */
 const FlexBox = () => {
   return (
     <View style={[styles.container, { flexDirection: 'column' }]}>
