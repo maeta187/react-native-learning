@@ -99,6 +99,15 @@ export default function TabLayout() {
           )
         }}
       />
+      <Tabs.Screen
+        name='align-items'
+        options={{
+          title: 'alignItems',
+          tabBarIcon: ({ color }) => (
+            <IconSymbol size={28} name='5.circle' color={color} />
+          )
+        }}
+      />
     </Tabs>
   )
 }
