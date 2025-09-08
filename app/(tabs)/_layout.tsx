@@ -153,6 +153,15 @@ export default function TabLayout() {
           )
         }}
       />
+      <Tabs.Screen
+        name='image'
+        options={{
+          title: 'ImageItem',
+          tabBarIcon: ({ color }) => (
+            <IconSymbol size={28} name='11.circle' color={color} />
+          )
+        }}
+      />
     </Tabs>
   )
 }
